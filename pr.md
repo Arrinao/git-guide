@@ -1,13 +1,11 @@
 # Pull requests
-
-This page is really WIP
+Pull requests, or PR's for short are lines of code, that 
 
 
 ## Making a pull request to someone else's repo
 
-Open repo on github
-
-Fork with button in github top corner
+First navigate into the other person's repo (ideally by clicking on his/her profile picture or name. This should show all his repos).
+On top right corner of the screen is a Fork button, which copies his/her entire repo to your account. 
 
 Clone YOUR repo not the original
 
@@ -18,29 +16,3 @@ $ git clone https://github.com/YOURusername/reponame
 Edit, add, commit, push
 
 Click link in `git push` output
-
-
-Clarification from chat with arrinao:
-
-```
-<Arrinao> I don't know what this is
-<Arrinao> Clone YOUR repo not the original
-<Arrinao> It's been a long time since I've done stuff on other person's repo
-<Akuli> should be:  your fork
-<Arrinao> I think only once
-<Akuli> :)(
-<Akuli> :)
-<Arrinao> with ThePhilgrim's minesweeper
-<Akuli> and in that repo, you had push permission
-<Akuli> so you just cloned it and committed and pushed, as if it was your repo
-<Arrinao> can you tell the whole sequence?
-<Arrinao> navigate to other person's repo
-<Akuli> anyway, with "YOUR repo", i meant https://github.com/Arrinao/git-guide
-<Arrinao> click fork
-<Akuli> yeah
-<Akuli> that will create https://github.com/Arrinao/git-guide
-<Akuli> (notice Arrinao)
-<Akuli> so now you have your own git-guide repo, the fork
-<Arrinao> ok
-<Akuli> and you clone this fork instead of cloning my git-guide, then you commit and push to this fork
-```
